@@ -1,4 +1,4 @@
-# Docker Setup on Mac behind Corp Proxy
+# Docker Setup on Mac and Window behind Corp Proxy
 
 Work on window and mac.
 
