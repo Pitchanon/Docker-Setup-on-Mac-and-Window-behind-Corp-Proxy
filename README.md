@@ -1,5 +1,7 @@
 # Docker Setup on Mac behind Corp Proxy
 
+Work on window and mac.
+
 Configure your docker VM with your proxy settings
 
 ```
@@ -41,6 +43,7 @@ export "NO_PROXY="
 Now exit out of your Docker Machine VM and restart it so the new proxy settings can take affect.
 
 ```
+$ cat /var/lib/boot2docker/profile
 $ exit
 $ docker-machine restart default
 ```
